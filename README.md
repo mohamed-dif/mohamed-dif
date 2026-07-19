@@ -216,7 +216,7 @@ The work included:
 ## 📫 Contact
 
 - **Email:** mohameddiff.md@gmail.com
-- **GitHub:** [UnderRelaxed](https://github.com/UnderRelaxed)
+- **GitHub:** [mohamed-dif](https://github.com/mohamed-dif)
 - **Main portfolio:** [Hydrogen Thermal Digital Twin](https://github.com/mohameddiffmd-dotcom/hydrogen-thermal-digital-twin)
 
 ---
