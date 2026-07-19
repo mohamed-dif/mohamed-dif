@@ -35,130 +35,194 @@ My work covers the full engineering workflow:
 
 ---
 
-## My Projects
+## 🚀 My Projects
 
-### 1. Hydrogen Thermal Digital Twin
+### 1. Rotating-Wheel Hydrocyclone CFD
 
-A multi-fidelity comparison of transient hydrogen compression and tank filling using:
+Research project conducted with an industrial partner to investigate a hydrocyclone equipped with an internal rotating wheel for improving fine-particle separation.
 
-- Analytical thermodynamics
-- Python reduced-order models
-- MATLAB numerical models
-- CoolProp real-gas properties
-- ANSYS Fluent transient CFD
-- Dynamic mesh motion
-- Mesh and time-step verification
+The engineering work includes:
 
-The project compares pressure, temperature, compression work and real-gas effects across different modelling fidelities.
+- Multiphase particle separation
+- Discrete Phase Model implementation
+- MRF and sliding-mesh approaches
+- Wheel-speed and geometry comparisons
+- Particle-diameter sensitivity studies
+- Pressure-drop and turbulence analysis
+- Separation-efficiency evaluation
+- Mesh and time-step independence studies
+- Python and MATLAB result post-processing
+- Interactive three-dimensional engineering visualization
 
-🔗 [View the repository](https://github.com/mohameddiffmd-dotcom/hydrogen-thermal-digital-twin)
-
----
-
-### 2. Hydrogen Electrolysis and Reactive Species Modelling
-
-A CFD study combining electrochemical and reacting-flow modelling.
-
-The work includes:
-
-- Electric-potential distribution
-- Verification of balanced transfer current at the anode and cathode
-- Multiphase gas-volume-fraction prediction
-- Species transport
-- Temperature contours
-- Velocity-vector analysis
-- CH₄, CO₂ and O₂ mass-fraction distributions
-- NO pollutant prediction
-
-This project demonstrates experience with electrolysis physics, species transport, multiphase flow and reacting CFD.
+The objective is to understand how the rotating wheel affects particle trajectories, centrifugal forces and the separation of fine particles in viscous multiphase flows.
 
 ---
 
-### 3. Hydraulic Draw-Cushion Press Design
+### 2. Hydraulic Draw-Cushion Press Design
 
-Bachelor-thesis engineering project converting a single-action hydraulic press into a double-action deep-drawing press.
+Bachelor-thesis engineering project converting a single-action hydraulic press into a double-action deep-drawing press with a hydraulically operated draw cushion.
 
-Responsibilities included:
+The project included:
 
 - Mechanical concept development
 - Hydraulic-cylinder and draw-cushion design
-- Blank-holder force calculations
-- Complete CAD assembly and manufacturing drawings
+- Blank-holder and drawing-force calculations
+- Complete CAD assembly
+- Manufacturing and technical drawings
 - Lower-plate sizing under a 50 kN load
 - Tie-rod selection and preload evaluation
-- Static structural analysis in ANSYS Mechanical
+- Hydraulic-pressure and cylinder-capacity calculations
+- Static structural analysis using ANSYS Mechanical
 - Equivalent-stress and total-deformation assessment
+- Interactive analytical digital-twin development
 
-A 25 mm plate thickness was selected, and M18 tie rods satisfied the combined loading requirement. The structural simulation predicted a maximum frame deformation of approximately **0.162 mm**.
-
----
-
-### 4. Rotating-Wheel Hydrocyclone CFD
-
-Research project with an industrial partner investigating a hydrocyclone containing an internal rotating wheel.
-
-The simulation work includes:
-
-- Multiphase particle separation
-- Discrete Phase Model
-- MRF and sliding-mesh approaches
-- Particle-size sensitivity
-- Wheel-speed comparison
-- Pressure and turbulence analysis
-- Separation-efficiency evaluation
-- Mesh and time-step studies
-
-The goal is to improve the separation of fine particles in viscous multiphase flows.
+A 25 mm lower-plate thickness was selected, and M18 tie rods satisfied the combined loading requirements. The structural simulation predicted a maximum frame deformation of approximately **0.162 mm**.
 
 ---
 
-### 5. Reverse-Osmosis Membrane Test Bench
+### 3. [PEM Electrochemical Cell Post-Processing](https://github.com/mohamed-dif/electrochemical-cell-postprocessing)
 
-Experimental and analytical investigation of two reverse-osmosis membranes.
+<p align="center">
+  <a href="https://github.com/mohamed-dif/electrochemical-cell-postprocessing">
+    <img
+      src="https://raw.githubusercontent.com/mohamed-dif/electrochemical-cell-postprocessing/main/references/electrochemical-postprocessing-demo.gif"
+      alt="Animated PEM electrochemical-cell post-processing demonstration"
+      width="900">
+  </a>
+</p>
+
+A reproducible engineering post-processing workflow for a layered PEM electrochemical cell using Python, MATLAB and an interactive HTML workstation.
+
+The project includes:
+
+- Electric-potential field visualization
+- Phase-1 volume-fraction analysis
+- Volumetric transfer-current integration
+- Anode and cathode catalyst-layer balance checks
+- Streamwise current-uniformity evaluation
+- Through-plane profile extraction
+- Zone-by-zone statistical analysis
+- Python and MATLAB engineering reports
+- Interactive field selection and contour interrogation
+- Downloadable zone-audit results
+- Automated `PASS` and `REVIEW` quality checks
+
+The demonstration case reproduces a potential range of **0.000–1.730 V**, a phase-fraction range of **0.000–0.998**, and a selected catalyst-layer transfer-current integral of **3.116622 A**.
+
+🔗 **[View Repository](https://github.com/mohamed-dif/electrochemical-cell-postprocessing)**  
+🌐 **[Open Interactive Website](https://mohamed-dif.github.io/electrochemical-cell-postprocessing/)**
+
+---
+
+### 4. [Hydrogen Thermal Digital Twin](https://github.com/mohamed-dif/hydrogen-thermal-digital-twin)
+
+<p align="center">
+  <a href="https://github.com/mohamed-dif/hydrogen-thermal-digital-twin">
+    <img
+      src="https://raw.githubusercontent.com/mohamed-dif/hydrogen-thermal-digital-twin/main/assets/piston_compression.gif"
+      alt="Animated hydrogen piston-compression digital twin"
+      width="900">
+  </a>
+</p>
+
+A multi-fidelity investigation of transient hydrogen compression and tank filling, connecting first-principles thermodynamics with scientific programming and CFD.
+
+The workflow combines:
+
+- Analytical thermodynamic equations
+- Constant-property ideal-gas modelling
+- Variable-heat-capacity models
+- CoolProp real-gas properties
+- Python reduced-order models
+- MATLAB numerical models
+- ANSYS Fluent transient CFD
+- Moving piston and dynamic mesh motion
+- Pressure and temperature history comparison
+- Compression-work calculations
+- Mesh and time-step verification
+- Endpoint consistency auditing
+- Fast hydrogen-tank filling analysis
+
+The project compares pressure, temperature, compression work and real-gas effects across several modelling fidelities. It also demonstrates how automated consistency checks can identify disagreements between reported CFD endpoints, compression ratio and conservation equations.
+
+🔗 **[View Repository](https://github.com/mohamed-dif/hydrogen-thermal-digital-twin)**
+
+---
+
+### 5. [Methane–Air Combustion CFD](https://github.com/mohamed-dif/Methane-Air-Combustion-CFD)
+
+<p align="center">
+  <a href="https://github.com/mohamed-dif/Methane-Air-Combustion-CFD">
+    <img
+      src="https://raw.githubusercontent.com/mohamed-dif/Methane-Air-Combustion-CFD/main/assets/preview.png"
+      alt="Methane-air combustion temperature-field preview"
+      width="900">
+  </a>
+</p>
+
+A two-dimensional methane–air reacting-flow study presented through Python, MATLAB and a standalone interactive HTML dashboard.
+
+The project covers:
+
+- Static-temperature contours
+- Velocity-magnitude analysis
+- Methane mass-fraction distribution
+- Oxygen-consumption analysis
+- Carbon-dioxide formation
+- Nitric-oxide pollutant prediction
+- Fuel and air velocity effects
+- Equivalence-ratio sensitivity
+- Mixing-intensity evaluation
+- Cross-section averaged axial profiles
+- Python, MATLAB and browser-based visualization
+- Comparison with ANSYS Fluent reference contours
+
+The workflow connects combustion CFD with scientific programming, emissions interpretation and engineering visualization. The current interactive model reconstructs the supplied Fluent field topology for post-processing demonstrations and qualitative parameter studies.
+
+🔗 **[View Repository](https://github.com/mohamed-dif/Methane-Air-Combustion-CFD)**
+
+---
+
+### 6. Reverse-Osmosis Membrane Test Bench
+
+Experimental and analytical investigation of two reverse-osmosis membranes for water-treatment applications related to green-hydrogen production.
 
 The work included:
 
+- Experimental test-bench operation
 - Salt-rejection measurements
 - Permeate-flux evaluation
-- Pressure and concentration effects
-- Conductivity-data analysis
-- Comparison of membrane performance
-- Water-treatment sizing for green-hydrogen production
+- Feed-pressure sensitivity
+- Concentration-effect analysis
+- Conductivity-data processing
+- Membrane-performance comparison
+- Water-treatment system sizing
+- Electrolyser water-demand calculations
+- Experimental uncertainty and result interpretation
 
-The study connected laboratory measurements with full-scale electrolyser water-demand calculations.
+The study connected laboratory membrane measurements with the water-quality and flow-rate requirements of a full-scale electrolysis system.
 
 ---
 
-### 6. Thermoelectric Generator for Liquid-Hydrogen Propulsion
+### 7. Thermoelectric Generator for Liquid-Hydrogen Propulsion
 
-Master's-thesis project focused on thermal-energy recovery in liquid-hydrogen propulsion systems.
+Master's-thesis project focused on recovering thermal energy from the large temperature difference available in liquid-hydrogen propulsion and cryogenic fuel systems.
 
-Planned engineering workflow:
+The planned engineering workflow includes:
 
+- Thermodynamic feasibility analysis
 - CAD concept development
-- Thermal and flow-path design
+- Thermal-path and heat-exchanger design
 - CFD simulation
-- Thermoelectric-material integration
+- Thermoelectric-material selection
+- Thermal-contact resistance analysis
+- Electrical-power prediction
 - Test-bench development
+- Instrumentation and data acquisition
 - Experimental validation
+- Comparison between numerical and experimental results
 
----
-
-### 7. Transient Hydrogen Piston Compression
-
-A 2D axisymmetric dynamic-mesh simulation of hydrogen compression in a piston-cylinder.
-
-The work included:
-
-- Moving piston boundary
-- Compressible transient flow
-- Pressure and temperature evolution
-- Dynamic mesh layering
-- Isentropic validation
-- Mesh-independence study
-- Compression-ratio analysis
-
----
+The objective is to investigate whether cryogenic hydrogen can provide useful thermoelectric power while supporting thermal management within a hydrogen-propulsion system.
 
 ## 🛠️ Engineering Toolkit
 
