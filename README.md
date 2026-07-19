@@ -39,7 +39,7 @@ My work covers the full engineering workflow:
 
 ---
 
-## 🚀 Featured Engineering Projects
+## My Projects
 
 ### 1. Hydrogen Thermal Digital Twin
 
