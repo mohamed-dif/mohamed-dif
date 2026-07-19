@@ -39,20 +39,22 @@ My work covers the full engineering workflow:
 
 ### 1. Rotating-Wheel Hydrocyclone CFD
 
-Research project conducted with an industrial partner to investigate a hydrocyclone equipped with an internal rotating wheel for improving fine-particle separation.
+Research project conducted with an industrial partner and TH ROSENHEIM Funded by ZIM to investigate a hydrocyclone equipped with an internal rotating wheel for improving fine-particle separation.
 
-The engineering work includes:
+The engineering work included:
 
-- Multiphase particle separation
-- Discrete Phase Model implementation
-- MRF and sliding-mesh approaches
-- Wheel-speed and geometry comparisons
-- Particle-diameter sensitivity studies
-- Pressure-drop and turbulence analysis
-- Separation-efficiency evaluation
-- Mesh and time-step independence studies
-- Python and MATLAB result post-processing
-- Interactive three-dimensional engineering visualization
+- Reverse-engineered the industrial hydrocyclone and reconstructed its internal geometry from the available drawings, dimensions and component information.
+- Prepared and simplified the CAD geometry for CFD by repairing surfaces, removing unnecessary features and extracting the internal fluid domain.
+- Developed interchangeable geometry configurations for the conventional hydrocyclone and the modified design containing an internal rotating wheel.
+- Created parametric wheel variants to investigate wheel diameter, length, position and rotational speed.
+- Generated computational meshes with local refinement in the inlet, vortex, wheel, overflow and underflow regions.
+- Performed mesh-independence and time-step sensitivity studies to evaluate numerical reliability.
+- Implemented multiphase particle tracking using the Discrete Phase Model.
+- Applied MRF and transient sliding-mesh methods to represent the rotating-wheel motion.
+- Investigated the effects of inlet velocity, particle diameter and wheel RPM on particle trajectories and separation behaviour.
+- Evaluated separation efficiency, pressure drop, turbulence, flow structure and particle distribution between the overflow and underflow outlets.
+- Developed Python and MATLAB post-processing workflows for comparing simulation cases and calculating particle-separation performance.
+- Created an interactive three-dimensional visualization for communicating the hydrocyclone geometry, operating parameters and predicted separation results.
 
 The objective is to understand how the rotating wheel affects particle trajectories, centrifugal forces and the separation of fine particles in viscous multiphase flows.
 
