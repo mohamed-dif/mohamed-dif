@@ -182,7 +182,7 @@ The project covers:
 The workflow connects combustion CFD with scientific programming, emissions interpretation and engineering visualization. The current interactive model reconstructs the supplied Fluent field topology for post-processing demonstrations and qualitative parameter studies.
 
 🔗 **[View Repository](https://github.com/mohamed-dif/Methane-Air-Combustion-CFD)**
-
+🌐 **[Open Interactive Website](ttps://mohamed-dif.github.io/Methane-Air-Combustion-CFD//)** h
 ---
 
 ### 6. Reverse-Osmosis Membrane Test Bench
