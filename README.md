@@ -5,10 +5,6 @@ Mechanical Engineer | Green Hydrogen Technology M.Sc. | CFD, CAD & Thermal Syste
 </h3>
 
 <p align="center">
-  <b>Under-relaxing engineering problems until they converge.</b>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/ANSYS-Fluent-FFB71B?style=for-the-badge">
   <img src="https://img.shields.io/badge/ANSYS-Mechanical-FFB71B?style=for-the-badge">
   <img src="https://img.shields.io/badge/Python-Scientific%20Computing-3776AB?style=for-the-badge">
